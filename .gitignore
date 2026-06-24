@@ -1,0 +1,97 @@
+# =========================
+
+# Python
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+
+# =========================
+
+# Virtual Environments
+
+# =========================
+
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+
+# Environment Variables / Secrets
+
+# =========================
+
+.env
+backend/.env
+frontend/.env
+
+# =========================
+
+# Frontend (React / Vite)
+
+# =========================
+
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+build/
+
+# =========================
+
+# IDE / Editor
+
+# =========================
+
+.vscode/
+.idea/
+*.swp
+
+# =========================
+
+# Generated Dataset Files
+
+# =========================
+
+backend/dataset/feedback_data.csv
+
+# =========================
+
+# Database Files
+
+# =========================
+
+*.db
+*.sqlite3
+
+# =========================
+
+# Alembic Cache
+
+# =========================
+
+backend/alembic/versions/**pycache**/
+
+# =========================
+
+# Logs
+
+# =========================
+
+*.log
+
+# =========================
+
+# OS Files
+
+# =========================
+
+.DS_Store
+Thumbs.db
